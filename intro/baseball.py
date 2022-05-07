@@ -44,7 +44,7 @@ np_city = np.column_stack((height, weight))
 print(np_city[50, :])
 #printing the entire column
 print(np_city[:, 1])
-#printing height if 120th player
+#printing height of 120th player
 print(np_city[119, 0])
 
 np_upd_height = np.random.normal(1.5, 0.5, 5000)
