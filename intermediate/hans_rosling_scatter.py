@@ -287,9 +287,16 @@ gdp_cap = [974.5803384,
  1271.211593,
  469.70929810000007]
 
+#plot
+plt.plot(gdp_cap, life_exp)
+
+#scatterplot
 plt.scatter(gdp_cap, life_exp)
-#plt.show()
 
 plt.xscale('log')
 plt.yscale('log')
+
+#histogram
+plt.hist(life_exp, 5)
+
 plt.show()
