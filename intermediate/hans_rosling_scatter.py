@@ -288,4 +288,8 @@ gdp_cap = [974.5803384,
  469.70929810000007]
 
 plt.scatter(gdp_cap, life_exp)
+#plt.show()
+
+plt.xscale('log')
+plt.yscale('log')
 plt.show()
