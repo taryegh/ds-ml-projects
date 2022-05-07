@@ -1,3 +1,18 @@
+import math
+
+"""
+Data types
+
+Text Type:	str
+Numeric Types:	int, float, complex
+Sequence Types:	list, tuple, range
+Mapping Type:	dict
+Set Types:	set, frozenset
+Boolean Type:	bool
+Binary Types:	bytes, bytearray, memoryview
+None Type:	NoneType
+"""
+
 # area variables (in square meters)
 hall = 11.25
 kit = 18.0
@@ -52,3 +67,19 @@ print(areas)
 #copying list
 areas_copy = areas[:]
 areas_copy_2 = list(areas)
+
+#sorting
+first = [11.25, 18.0, 20.0]
+sorted_first = sorted(first, reverse=True)
+print((sorted_first))
+
+#string methods
+place = "poolhouse"
+place_up = place.upper()
+print(place.count("o"))
+print(first.index(20.0))
+print(first.count(20.0))
+first.append(24.5)
+first.append(15.45)
+first.reverse()
+print(first)
