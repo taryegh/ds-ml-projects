@@ -1,5 +1,6 @@
 import numpy as np
 
+#option_1
 np.random.seed(123)
 tails = [0]
 for x in range(10) :
@@ -8,10 +9,9 @@ for x in range(10) :
 print(tails)
 
 
-#option 2
+#option_2
 
 random_walk = [0]
-
 for x in range(100) :
     step = random_walk[-1]
     dice = np.random.randint(1,7)
