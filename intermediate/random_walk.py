@@ -17,7 +17,7 @@ for x in range(100) :
     dice = np.random.randint(1,7)
 
     if dice <= 2:
-        step = step - 1
+        step = max(step - 1, 0)
     elif dice <= 5:
         step = step + 1
     else:
